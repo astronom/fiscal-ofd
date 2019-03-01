@@ -1,0 +1,34 @@
+{
+  "name": "astronom/fiscal-ofd",
+  "description": "E-com order contract. Simplify integration with payment providers witch support fiscal data operators",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandr Manichev",
+      "email": "a.manichev@gmail.com"
+    }
+  ],
+  "keywords": [
+    "fiscal",
+    "ofd",
+    "receipt",
+    "payment",
+    "e-com",
+    "e-commerce",
+    "commerce"
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fiscal\\OFD\\": "/src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
