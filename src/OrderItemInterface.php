@@ -15,7 +15,7 @@ interface OrderItemInterface
     /**
      * Order item id. It must be Unique among order items.
      *
-     * @return mixed
+     * @return int
      */
     public function getPositionId(): int;
 
