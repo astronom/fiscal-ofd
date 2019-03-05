@@ -12,9 +12,9 @@ interface OrderInterface
     /**
      * Order's cart.
      *
-     * @return iterable|\Fiscal\OFD\OrderItemInterface[]
+     * @return array|\Fiscal\OFD\OrderItemInterface[]
      */
-    public function getItems(): iterable;
+    public function getItems(): array;
 
     /**
      * Check if there is order items

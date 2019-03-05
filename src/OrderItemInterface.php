@@ -15,9 +15,9 @@ interface OrderItemInterface
     /**
      * Order item id. It must be Unique among order items.
      *
-     * @return int
+     * @return int|null
      */
-    public function getPositionId(): int;
+    public function getPositionId(): ?int;
 
     /**
      * Product name.
